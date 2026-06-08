@@ -56,9 +56,12 @@ Pillow (PIL)
 OpenCV (optional preprocessing)
 
 brain_tumor_detection/
+
 │
 ├── app.py                    # Streamlit web application
+
 ├── train_model.py           # CNN model training script
+
 ├── requirements.txt         # Dependencies
 ├── .gitignore               # Ignored files configuration
 │
