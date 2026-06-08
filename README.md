@@ -42,11 +42,17 @@ Output: Binary classification (Tumor / No Tumor)
 
 🛠️ Tech Stack
 Python
+
 TensorFlow / Keras
+
 Convolutional Neural Networks (CNN)
+
 Streamlit (Web Deployment)
+
 NumPy
+
 Pillow (PIL)
+
 OpenCV (optional preprocessing)
 
 brain_tumor_detection/
@@ -64,9 +70,15 @@ brain_tumor_detection/
 
 
 ⚙️ Model Training Pipeline
+
 Dataset loading and preprocessing using ImageDataGenerator
+
 Image normalization (rescaling pixel values)
+
 Train/validation split (80/20)
+
 CNN model training using binary cross-entropy loss
+
 Model evaluation on validation dataset
+
 Model persistence as .h5 file
