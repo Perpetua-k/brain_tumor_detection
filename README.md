@@ -63,12 +63,19 @@ brain_tumor_detection/
 ├── train_model.py           # CNN model training script
 
 ├── requirements.txt         # Dependencies
+
 ├── .gitignore               # Ignored files configuration
+
 │
+
 ├── dataset/                 # MRI dataset (excluded from GitHub)
+
 │   ├── yes/                 # Tumor images
+
 │   ├── no/                  # Non-tumor images
+
 │
+
 └── brain_tumor_model.h5     # Trained model (excluded due to size)
 
 
