@@ -4,14 +4,18 @@ This project is a medical image classification system that leverages a Convoluti
 The system classifies images into two categories:
 
 Tumor
+
 No Tumor
 
 This project demonstrates practical application of Deep Learning in Computer Vision for healthcare diagnostics support.
 
 🎯 Objectives
 Build an end-to-end deep learning pipeline for medical image classification
+
 Train a CNN model using MRI brain scan datasets
+
 Deploy a user-friendly web application using Streamlit
+
 Enable real-time inference on unseen MRI images
 
 🧠 Model Architecture
@@ -19,13 +23,20 @@ Enable real-time inference on unseen MRI images
 A Convolutional Neural Network (CNN) was designed with the following structure:
 
 Convolutional Layers (feature extraction)
+
 MaxPooling Layers (dimensionality reduction)
+
 Flatten Layer
+
 Fully Connected Dense Layers
+
 Sigmoid Activation for binary classification
+
 Input Specifications:
 Image Size: 150 × 150 pixels
+
 Color Mode: RGB
+
 Output: Binary classification (Tumor / No Tumor)
 
 
