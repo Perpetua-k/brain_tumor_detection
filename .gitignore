@@ -1,0 +1,8 @@
+venv/
+datasets/
+brain_tumor_model.keras
+brain_tumor_model.h5
+__pycache__/
+*.pyc
+*.dll
+*.pyd
